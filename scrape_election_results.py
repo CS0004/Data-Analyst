@@ -60,9 +60,16 @@ with open('report.md', 'w') as f:
     f.write("# Lok Sabha Election Results Report\n")
     f.write("## Key Insights\n")
     insights = [
-        "1. The total votes received by each party.",
-        "2. The party with the highest number of votes.",
-        # Add more insights
+        "1. The total votes in the elections were approximately 642 million.",
+        "2. The party with the highest number of votes was Bharatiya Janata Party with approximately 235,973,935 votes i.e 36.56% of total votes.",
+        "3. Indian National Congress (INC) was the second most successful party with approximately 136,759,064 votes i.e 21.19% of total votes.",
+        "4. In terms of assembly constituencies won Bharatiya Janata Party claimed 240 constituencies whereas INC claimed only 99.",
+        "5. The NDA alliance being led by Bharatiya Janata Party claimed the majority with 293 constituencies under their haul.",
+        "6. Although Bharatiya Janata Party had more votes in Uttar Pradesh i.e 41.37% as compared to Samajwadi Party's 33.59%,they still could only win 33 constituencies as compared to SP's haul of 37.",
+        "7. Fierce competition was seen in the 10 constituencies of Haryana as both BJP and INC won 5-5 each respectively, while achieving 46.11% and 43.67% votes respectively.",
+        "8. In the NCT of Delhi BJP had a clean sweep across the 7 constituencies with a vote count of approximately 54.35% across the region.",
+        "9. Although RJD bagged most votes in Bihar it was BJP and JD(U) with the most constituency hauls with 12-12 seats each as compared to RJD's 4.",
+        "10. Towards the seven sisters BJP performed well as compared to the previous performances bagging majority in Assam,Arunachal Pradesh,etc."
     ]
     for insight in insights:
         f.write(insight + "\n")
